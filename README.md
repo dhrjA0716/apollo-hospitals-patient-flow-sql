@@ -12,5 +12,13 @@ Department-by-department analysis of waits, bed utilisation, readmissions and le
 2. Run `apollo_patient_flow.sql` (File > Open SQL Script, then the lightning bolt).
 3. Run any query from `apollo_analysis_queries.sql`.
 
+## Database Schema (ER Diagram)
+
+The following ER diagram illustrates the relationships between the six tables in the hospital database.
+
+![Hospital ER Diagram](a_clean_high_resolution_erd_database_schema_dia.png)
+
 ## Skills shown
 JOINs, GROUP BY / HAVING, CASE, subqueries, CTEs, window functions (DENSE_RANK), EXPLAIN / EXPLAIN ANALYZE query optimisation.
+
+
